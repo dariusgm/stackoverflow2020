@@ -15,11 +15,7 @@ Now we are ready to download the data from Stackoverflow. Visit: https://insight
 # Repository Structure
 
 After fetching the data, you should have following directory structure:
-- developer_survey_2020
--- README_2020.pdf 
--- so_survey_2020.pdf: Survey input formular
--- survey_resuls_public.csv: acual data we need
--- survey_results_schema.csv: Schema definition we don't use
+
 - .gitignore: Files to ignore for git
 - .dockerignore: Files to ignore by docker
 - .python-version: Store correct python version for this environment using `pyenv`
@@ -29,6 +25,13 @@ After fetching the data, you should have following directory structure:
 - Pipfile: Depency management file
 - Pipfile.lock: Resolved dependencies by pipenv
 - README.md: this file
+
+- developer_survey_2020 (directory)
+- README_2020.pdf 
+- so_survey_2020.pdf: Survey input formular
+- survey_resuls_public.csv: acual data we need
+- survey_results_schema.csv: Schema definition we don't use
+
 
 # Installation Native
 
@@ -53,9 +56,6 @@ Please note: Depending on your setup, sudo or root may (not) be required for run
 sudo docker build -t dariusblog .
 ```
 This may take some time.
-
-# Getting the data
-
 
 
 # Starting Native
