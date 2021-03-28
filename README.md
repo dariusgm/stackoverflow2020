@@ -73,3 +73,7 @@ sudo docker run -p 8888:8888 dariusblog
 ```
 
 Please wait a minute to allow the notebook to boot up. Than you can access under http://localhost:8888 the notebook. Do not run this Dockerfile on a public server, as no credentials are required to access the jupyter server.
+
+# Blogpost
+https://murawski.blog/drafts/stackoverflow2020.html
+
